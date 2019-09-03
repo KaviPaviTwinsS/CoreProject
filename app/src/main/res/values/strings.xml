@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CoreProject</string>
+    <string name="textType_header">header</string>
+</resources>

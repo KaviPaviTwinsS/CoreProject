@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="CustomTextViewStyle">
+        <attr name="textType" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditTextStyle">
+        <attr name="hintColor" format="color" />
+        <attr name="editText_textColor" format="color" />
+        <attr name="editText_textSize" format="dimension" />
+        <attr name="editText_background" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomButtonStyle">
+        <attr name="button_textColor" format="color" />
+        <attr name="button_textSize" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="button_background" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextInputLayoutStyle">
+        <attr name="text_hintColor" format="color" />
+        <attr name="text_textColor" format="color" />
+        <attr name="text_textSize" format="dimension" />
+        <attr name="text_hintSize" format="dimension" />
+        <attr name="text_background_color" format="color" />
+        <attr name="text_background" format="string" />
+    </declare-styleable>
+
+</resources>

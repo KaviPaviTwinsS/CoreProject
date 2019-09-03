@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--   <developer.coreproject.widgets.CustomTextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Hello World!"
+           android:visibility="gone"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:textColor="@color/colorAccent"
+           app:textSize="@dimen/sp_50" />-->
+
+    <developer.coreproject.widgets.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_name"
+        android:textCursorDrawable="@null"
+        android:visibility="gone"
+        app:editText_textColor="@color/colorAccent"
+        app:hintColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textSize="@dimen/sp_5" />
+
+    <developer.coreproject.widgets.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nandhini"
+        app:background_color="@color/colorPrimary"
+        app:button_background="search"
+        app:button_textColor="@color/colorAccent"
+        app:button_textSize="@dimen/sp_18"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <developer.coreproject.widgets.CustomTextInputLayout
+        android:id="@+id/passwordWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusableInTouchMode="true"
+        android:hint="@string/app_name"
+        app:text_hintColor = "@color/colorPrimaryDark"
+        android:layout_marginTop="4dp">
+
+        <developer.coreproject.widgets.CustomEditText
+            android:id="@+id/password"
+            app:editText_textColor="@color/colorPrimaryDark"
+            app:hintColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+         />
+
+    </developer.coreproject.widgets.CustomTextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
